@@ -19,5 +19,5 @@ def test_name_records_not_empty(name):
         raise Exception('Name is empty')
 
 test_name_records()
-test_name_records_by_string(123)
+test_name_records_by_string("Name")
 test_name_records_not_empty("Name")
